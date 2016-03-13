@@ -3,8 +3,8 @@ public class DataForTemperature {
     private String text2 = " градуса по Фаренгейту при переводе в Цельсии будет ";
     private int tc1;
     private int tf2;
-    private double tf1 = tc1*1.8+32;
-    private double tc2 = (tf2-32)/1.8;
+    private double tf1;
+    private double tc2;
 
     DataForTemperature(int cel1, int far2){
         this.tc1 = cel1;
