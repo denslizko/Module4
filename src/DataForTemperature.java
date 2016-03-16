@@ -7,17 +7,19 @@ public class DataForTemperature {
     private double tc2;
 
     DataForTemperature(int cel1, int far2){
-        this.tc1 = cel1;
-        this.tf2 = far2;
-        this.tf1 = tc1*1.8+32;
-        this.tc2 = (tf2-32)/1.8;
+        tc1 = cel1;
+        tf2 = far2;
+        tf1 = tc1*1.8+32;
+        tc2 = (tf2-32)/1.8;
     }
 
     public String getText1() {
+
         return text1;
     }
 
     public String getText2() {
+
         return text2;
     }
 
